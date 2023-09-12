@@ -31,8 +31,6 @@ class App {
 
     Thread.sleep(TimeUnit.SECONDS.toMillis(3))
     two?.cancel(true)
-
-    scheduler.run { log.info("Work's done!") }
   }
 
 }
